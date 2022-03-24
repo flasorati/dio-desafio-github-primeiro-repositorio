@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="gpere"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-13 08:07:07 "/>
+        <attribute name="created" value="Z3BlcmU7REFWSURFU09VWkFQRVJFOzIwMjItMDMtMTM7IjA3OjQxOjI3ICI7Mjg1MQ=="/>
+        <attribute name="edited" value="Z3BlcmU7REFWSURFU09VWkFQRVJFOzIwMjItMDMtMTM7IjA4OjA3OjA3ICI7MTsyOTYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, limite" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="0"/>
+            <assign variable="limite" expression="10"/>
+            <while expression="numero&lt;=10">
+                <assign variable="numero" expression="numero+1"/>
+                <output expression="&quot;O n&#250;mero atual &#233;:&quot; &amp; numero" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

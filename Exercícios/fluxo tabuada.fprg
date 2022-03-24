@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="gpere"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-13 08:22:45 "/>
+        <attribute name="created" value="Z3BlcmU7REFWSURFU09VWkFQRVJFOzIwMjItMDMtMTM7IjA4OjA3OjA5ICI7Mjg1NA=="/>
+        <attribute name="edited" value="Z3BlcmU7REFWSURFU09VWkFQRVJFOzIwMjItMDMtMTM7IjA4OjIyOjQ1ICI7MTsyOTU5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, valortotal" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="9"/>
+            <for variable="b" start="0" end="10" direction="inc" step="1">
+                <assign variable="valortotal" expression="a*b"/>
+                <output expression="&quot;O total de &quot; &amp; a &amp; &quot; multiplicado por &quot; &amp; b &amp; &quot; &#233;: &quot; &amp; valortotal" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
